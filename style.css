@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 300px;
+    height: 30px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+    font-family: arial;
+    font-size: larger;
+    font-style: oblique;
+    /* background-size: 300px; */
+    background-image: url(ball-1906468_1280.png), url(img1.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+
+.row {
+    position:absolute ;
+    margin-top: 20px;
+    top: 130px;
+    left: 280px;
+    height: 250px;
+    width: 250px;
+    color: white;
+    /* background-color: transparent; */
+    font-family: cursive;
+    font-size: larger;
+    
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center bottom; */
+}
